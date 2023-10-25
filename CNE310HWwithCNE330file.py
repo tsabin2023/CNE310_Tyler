@@ -15,3 +15,9 @@ def ip_to_operating_system(octet):
         return "Windows"
     else:
         return "Linux"
+
+print(ip_to_operating_system(182))
+print(ip_to_operating_system(42))
+print(ip_to_operating_system(-1))
+print(ip_to_operating_system(782))
+print(ip_to_operating_system(1))
